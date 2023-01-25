@@ -4,8 +4,7 @@ trigger: none
 
 jobs:
   - job: build_application
-    pool: 'MyPool
-        vmImage: 'windows-latest'
+    pool: 'MyPool'
     steps:
     - task: DotNetCoreCLI@2
       displayName: 'dotnet restore'
