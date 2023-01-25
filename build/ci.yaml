@@ -4,7 +4,7 @@ trigger: none
 
 jobs:
   - job: build_application
-    pool: 'MyPool'
+    pool: 'MyPool
         vmImage: 'windows-latest'
     steps:
     - task: DotNetCoreCLI@2
